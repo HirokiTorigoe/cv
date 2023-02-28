@@ -1,0 +1,14 @@
+body{
+  font-family: 'Lora', 'Sawarabi Gothic', sans-serif;
+}
+@import 'modules/variables';
+@import 'modules/mixin';
+@import 'breakpoints/base';
+
+@media screen and (min-width:485px) {
+@import 'breakpoints/485up';
+}
+
+@media screen and (min-width: 767px) {
+  @import 'breakpoints/767up';
+}

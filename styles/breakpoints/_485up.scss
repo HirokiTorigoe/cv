@@ -1,0 +1,55 @@
+.width90 {
+  width: 90%;
+  margin: 0 auto;
+}
+.width80 {
+  width: 80%;
+  margin: 0 auto;
+}
+.width70 {
+  width: 70%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.font-sm {
+  font-size: 14px;
+}
+.font-md {
+  font-size: 18px;
+}
+.font-lg {
+  font-size: 24px;
+}
+.mb-sm {
+  margin-bottom: 10px;
+}
+.mb-lg {
+  margin-bottom: 50px;
+}
+.pb-sm {
+  padding-bottom: 10px;
+}
+.pb-lg {
+  padding-bottom: 50px;
+}
+
+
+
+.life{
+  &__item{
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    width:80%;
+  }
+  &__item1,
+  &__item2{
+    flex-basis:45%;
+  }
+  &__item3{
+    flex-basis:100%;
+  }
+}
